@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="container">
+        <div class="hello ubuntu-bold">Hello</div>
+        <div class="loginText ubuntu-bold">Sign In To Continue</div>
+        <div class="userName">
+          <input
+            class="username"
+            type="text"
+            placeholder="Username"
+            id="usernameInput"
+          />
+          <div class="error-message" id="usernameError"></div>
+        </div>
+        <div class="passWord">
+          <input
+            class="password"
+            type="password"
+            placeholder="Password"
+            id="passwordInput"
+          />
+          <div class="error-message" id="passwordError"></div>
+        </div>
+        <div class="loginBtn">
+          <button class="login" onclick="handleLogin()">Login</button>
+        </div>
+        <div class="forgetPassword ubuntu-bold" onclick="">forget password</div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

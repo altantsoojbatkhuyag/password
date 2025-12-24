@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.alfa-slab-one-regular {
+  font-family: "Alfa Slab One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 450px;
+  width: 364px;
+  border-radius: 12px;
+  justify-self: center;
+  box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.16);
+  padding-left: 15px;
+}
+
+.hello {
+  padding-top: 24px;
+  font-size: 30px;
+}
+
+.loginText {
+  padding-top: 22px;
+}
+
+.userName {
+  padding-top: 22px;
+}
+
+.passWord {
+  padding-top: 22px;
+}
+
+.loginBtn {
+  padding-top: 22px;
+}
+
+.forgetPassword {
+  padding-top: 22px;
+  cursor: pointer;
+  color: #0575e6;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.username {
+  width: 300px;
+  height: 60px;
+  border-radius: 40px;
+  padding-left: 20px;
+  border: gray 1px solid;
+}
+
+.password {
+  width: 300px;
+  height: 60px;
+  border-radius: 40px;
+  padding-left: 20px;
+  border: gray 1px solid;
+}
+
+.login {
+  width: 300px;
+  height: 60px;
+  border-radius: 40px;
+  background-color: #0575e6;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login:hover {
+  background-color: #0461c4;
+}
+
+.error {
+  border: 2px solid red !important;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+  padding-left: 20px;
+}
