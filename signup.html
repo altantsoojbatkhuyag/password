@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="signup.css" />
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="container">
+        <div class="hello ubuntu-bold">Hello</div>
+        <div class="loginText ubuntu-bold">Sign Up To Continue</div>
+        <div class="userName">
+          <input
+            class="username"
+            type="text"
+            placeholder="Create your username"
+            id="usernameInput"
+          />
+          <div class="error-message" id="usernameError"></div>
+        </div>
+        <div class="passWord">
+          <input
+            class="password"
+            type="password"
+            placeholder="Password"
+            id="passwordInput"
+          />
+          <div class="error-message" id="passwordError"></div>
+        </div>
+        <div class="alertMessages none">
+          <ul>
+            <li id="eightChar" class="">Contain 8 Characters</li>
+            <li id="lowerCase">Contain Lowercase Characters</li>
+            <li id="upperCase">Contain Uppercase Characters</li>
+            <li id="containNumber">Contain Numbers</li>
+            <li id="specialChar">Contain Special Characters (!@#$%^&*)</li>
+            <li id="sumNumbers">Sum of numbers must be greater than 25</li>
+            <li id="monthName">
+              Include a month name (january, february, etc.)
+            </li>
+            <li id="romanNumeral">
+              Include a Roman numeral (I, V, X, L, etc.)
+            </li>
+            <li id="noTriple">No character repeated 3 times in a row</li>
+          </ul>
+        </div>
+        <div class="loginBtn">
+          <button class="login" onclick="">Sign Up</button>
+        </div>
+      </div>
+    </div>
+    <script src="./signup.js"></script>
+  </body>
+</html>

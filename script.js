@@ -4,6 +4,9 @@ const correctPassword = "password";
 function goToContactPage() {
   window.location.href = "about.html";
 }
+function goTosignpage() {
+  window.location.href = "signup.html";
+}
 
 function handleLogin() {
   const usernameInput = document.getElementById("usernameInput");
@@ -39,7 +42,6 @@ function handleLogin() {
   }
 
   if (isValid) {
-    alert("Login successful!");
     goToContactPage();
   }
 }
